@@ -180,10 +180,10 @@ var currenciesRouter = require("./src/routers/v1/master/currency-router");
 currenciesRouter().applyRoutes(server, 'v1/master/currencies');
 
 var uploadProductRouter = require("./src/routers/v1/master/upload-product-router");
-uploadProductRouter().applyRoutes(server, 'v1/master/upload-products')
+uploadProductRouter().applyRoutes(server, 'v1/master/upload-products');
 
 var uploadGarmentProductRouter = require("./src/routers/v1/master/upload-garment-product-router");
-uploadGarmentProductRouter().applyRoutes(server, 'v1/master/upload-garment-products')
+uploadGarmentProductRouter().applyRoutes(server, 'v1/master/upload-garment-products');
 
 var uploadSupplierRouter = require('./src/routers/v1/master/upload-supplier-router');
 uploadSupplierRouter().applyRoutes(server, "v1/master/upload-suppliers");
