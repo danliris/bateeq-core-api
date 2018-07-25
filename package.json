@@ -17,17 +17,8 @@
   },
   "homepage": "https://github.com/danliris/bateeq-core-api#readme",
   "dependencies": {
-
-
-
-
-
+    "azure-storage": "^2.10.0",
     "bateeq-module": "git+https://github.com/danliris/bateeq-module.git#uat",
-
-
-
-
-
     "fast-csv": "^2.3.0",
     "json2xls": "^0.1.2",
     "moment": "^2.17.1",
